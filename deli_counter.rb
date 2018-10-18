@@ -8,8 +8,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  puts "Welcome, #{name}. You are number #{count} in line."
   katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{count} in line."
+  
 end
 
 def now_serving(katz_deli)
