@@ -7,7 +7,7 @@ def line(katz_deli)
   end
 end
 count = 1
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli, name, count)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{count} in line."
   count +=1
