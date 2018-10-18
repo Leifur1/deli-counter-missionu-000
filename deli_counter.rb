@@ -2,8 +2,10 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli == []
     puts 'The line is currently empty.'
-  # else
-    # katz_deli.each do |i|
+  else
+    for (let i = 0; i < katzDeli.length; i++) do
+      line.push(` `+[i+1]+`. `  + katzDeli[i])
+    end
   end
 end
 
