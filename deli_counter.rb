@@ -7,7 +7,6 @@ def line(katz_deli)
       line.push(` `+[i+1]+`. `  + katzDeli[i])
     }
     return(`The line is currently:` + line);
-    end
   end
 end
 
