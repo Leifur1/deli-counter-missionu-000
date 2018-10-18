@@ -1,13 +1,13 @@
 katz_deli = []
 def line(line)
-  if line.size === 0
-    puts 'The line is currently empty.'
+  if line.size == 0
+    puts "The line is currently empty."
   else
-    output 'The line is currently: '
+    output = "The line is currently: "
     count = 0
-    line.each do |i|
-      count+=1
-      output += "#{count}. #{i}"
+    line.each do |person|
+      count += 1
+      output += "#{count}. #{person}"
       output += " " if count != line.size
     end
     puts output
