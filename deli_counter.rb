@@ -2,15 +2,15 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli == []
     puts 'The line is currently empty.'
-  # else
-  #   katz_deli.each do |i|
+  else
+    katz_deli.each do |i|
   end
 end
 
 def take_a_number(katz_deli, name)
   count = 1
-  katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{count} in line."
+  katz_deli.push(name)
   count +=1
 end
 
