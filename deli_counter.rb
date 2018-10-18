@@ -6,8 +6,9 @@ def line(katz_deli)
   #   katz_deli.each do |i|
   end
 end
-count = 1
-def take_a_number(katz_deli, name, count)
+
+def take_a_number(katz_deli, name)
+  count = 1
   katz_deli << name
   puts "Welcome, #{name}. You are number #{count} in line."
   count +=1
